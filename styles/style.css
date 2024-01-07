@@ -3,6 +3,19 @@ body {
   margin: 25px 65px 0;
 }
 
+.btn_primary{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+text-transform: uppercase;
+border-radius: 3px;
+background: #F00;
+padding: 10px 15px;
+border: none;
+}
+
 /* header starts */
 
 .header {
@@ -101,3 +114,79 @@ body {
 }
 
 /* off_banner ends */
+
+/* mid_night party section starts */
+
+.mid_night_party {
+  background-image: url("../images/Vectorrr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.mid_night_party::after {
+  position: absolute;
+  content: "";
+  border-radius: 5px;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#070211+6,070211+71&1+6,0.5+67 */
+  background: linear-gradient(
+    to right,
+    rgba(7, 2, 17, 1) 6%,
+    rgba(7, 2, 17, 0.5) 67%,
+    rgba(7, 2, 17, 0.5) 71%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  z-index: -1;
+}
+
+.mid_night{
+    position: absolute;
+display: flex;
+gap: 40px;
+margin: 50px 100px 150px;
+}
+.mid_night_party_content{
+ 
+ 
+}
+
+.mid_night_party_content h2{
+    color: #FFF;
+   
+    font-size: 50px;
+    
+    font-weight: 900;
+    line-height:80px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+
+.mid_night_party_content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.mid_night_logo{
+
+   padding-top: 25px;
+}
+
+.mid_night_logo img{
+
+}
+
+/* mid_night party section ends */
+
+
+
