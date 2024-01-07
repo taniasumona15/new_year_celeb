@@ -59,12 +59,45 @@ body {
 
 /* header ends */
 
-
 /* off_banner starts */
 
-.off_banner{
-
+.off_banner {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
 }
 
+.off_banner_content {
+  font-family: Inter;
+}
+
+#off_banner_title {
+  color: #f00;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#off_banner_sub_title1 {
+  margin-top: 25px;
+  color: #f00;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#off_banner_sub_title2 {
+  margin-top: 20px;
+  color: #070211;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.off_banner img {
+  max-height: 550px;
+  max-width: 550px;
+  margin: 20px 0 50px;
+}
 
 /* off_banner ends */
