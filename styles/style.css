@@ -150,7 +150,7 @@ border: none;
     position: absolute;
 display: flex;
 gap: 40px;
-margin: 50px 100px 150px;
+margin: 50px 100px 50px 100px;
 }
 .mid_night_party_content{
  
@@ -190,3 +190,86 @@ margin: 50px 100px 150px;
 
 
 
+.timing{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0000+0,ff0000+100&0.11+12,0+100 */
+background: linear-gradient(to bottom,  rgba(255,0,0,0.11) 0%,rgba(255,0,0,0.11) 12%,rgba(255,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+text-align: center;
+margin: 80px 0;
+padding: 60px 0;
+}
+
+.timetable{
+    color: #070211;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+text-transform: capitalize;
+line-height: 0px;
+}
+
+.timetable span{
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 0px;
+}
+
+
+
+
+
+
+.coming_soon{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+   
+}
+
+.offer h6{
+    color: #F00;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 0;
+}
+
+.offer h2{
+    color: #070211;
+font-size: 30px;
+font-weight: 900;
+line-height: 20px;
+text-transform: capitalize;
+}
+
+.offer p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+
+
+.offer_img{
+border:11px solid #F00;
+border-radius: 100%;
+padding: 25px;
+}
+
+.offer_title h2{
+    color: #F00;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+}
+
+.offer_title p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
