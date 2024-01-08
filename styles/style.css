@@ -58,6 +58,7 @@ body {
   color: #fff;
   font-size: 25px;
   font-weight: 400;
+  margin-bottom: 0;
  
 }
 
@@ -66,7 +67,7 @@ body {
   color: #fff;
   font-size: 85px;
   font-weight: 900;
-  line-height: 85px;
+  line-height: 105px;
 }
 
 /* header ends */
