@@ -51,7 +51,7 @@ body {
 .header_content {
   position: absolute;
   text-align: center;
-  margin: 110px 0;
+  margin: 150px 0;
   max-width: 80%;
 }
 
@@ -65,7 +65,7 @@ body {
 #header_sub_title {
   margin-top: 25px;
   color: #fff;
-  font-size: 65px;
+  font-size: 70px;
   font-weight: 800;
   line-height: 95px;
 }
