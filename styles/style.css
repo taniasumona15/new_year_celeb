@@ -52,21 +52,22 @@ body {
   position: absolute;
   text-align: center;
   margin: 150px 0;
+  padding: 30px 0;
   max-width: 80%;
 }
 
 #header_title {
   color: #fff;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 400;
-  margin-bottom: 0;
+ 
 }
 
 #header_sub_title {
-  margin-top: 25px;
+  margin-top: 40px;
   color: #fff;
-  font-size: 70px;
-  font-weight: 800;
+  font-size: 75px;
+  font-weight: 900;
   line-height: 95px;
 }
 
