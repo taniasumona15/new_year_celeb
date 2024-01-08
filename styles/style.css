@@ -3,17 +3,17 @@ body {
   margin: 25px 65px 0;
 }
 
-.btn_primary{
-    color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 16px;
-font-weight: 500;
-text-transform: uppercase;
-border-radius: 3px;
-background: #F00;
-padding: 10px 15px;
-border: none;
+.btn_primary {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background: #f00;
+  padding: 10px 15px;
+  border: none;
 }
 
 /* header starts */
@@ -146,130 +146,207 @@ border: none;
   z-index: -1;
 }
 
-.mid_night{
-    position: absolute;
-display: flex;
-gap: 40px;
-margin: 50px 100px 50px 100px;
+.mid_night {
+  position: absolute;
+  display: flex;
+  gap: 40px;
+  margin: 50px 100px 50px 100px;
 }
-.mid_night_party_content{
- 
- 
+.mid_night_party_content {
 }
 
-.mid_night_party_content h2{
-    color: #FFF;
-   
-    font-size: 50px;
-    
-    font-weight: 900;
-    line-height:80px;
-    letter-spacing: 5px;
-    margin-bottom: 0;
+.mid_night_party_content h2 {
+  color: #fff;
+
+  font-size: 50px;
+
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: 5px;
+  margin-bottom: 0;
 }
 
-.mid_night_party_content p{
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 10px;
+.mid_night_party_content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
-.mid_night_logo{
-
-   padding-top: 25px;
+.mid_night_logo {
+  padding-top: 25px;
 }
 
-.mid_night_logo img{
-
+.mid_night_logo img {
 }
 
 /* mid_night party section ends */
 
-
-
-.timing{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0000+0,ff0000+100&0.11+12,0+100 */
-background: linear-gradient(to bottom,  rgba(255,0,0,0.11) 0%,rgba(255,0,0,0.11) 12%,rgba(255,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-text-align: center;
-margin: 80px 0;
-padding: 60px 0;
+.timing {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0000+0,ff0000+100&0.11+12,0+100 */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.11) 0%,
+    rgba(255, 0, 0, 0.11) 12%,
+    rgba(255, 0, 0, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  text-align: center;
+  margin: 80px 0;
+  padding: 60px 0;
+  border-radius: 5px;
 }
 
-.timetable{
-    color: #070211;
-font-family: Inter;
-font-size: 18px;
-font-weight: 600;
-text-transform: capitalize;
-line-height: 0px;
+.timetable {
+  color: #070211;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 0px;
 }
 
-.timetable span{
-    color: #F00;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: capitalize;
-    line-height: 0px;
+.timetable span {
+  color: #f00;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 0px;
 }
 
-
-
-
-
-
-.coming_soon{
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-   
+.coming_soon {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+}
+.offer {
+  width: 100%;
 }
 
-.offer h6{
-    color: #F00;
-font-family: Inter;
-font-size: 16px;
-font-weight: 500;
-line-height: 0;
+.offer h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0;
 }
 
-.offer h2{
-    color: #070211;
-font-size: 30px;
-font-weight: 900;
-line-height: 20px;
-text-transform: capitalize;
+.offer h2 {
+  color: #070211;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: capitalize;
 }
 
-.offer p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
+.offer p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
-
-.offer_img{
-border:11px solid #F00;
-border-radius: 100%;
-padding: 25px;
+.offer_img {
+  border: 11px solid #f00;
+  border-radius: 100%;
+  padding: 25px;
+  width: 100%;
 }
 
-.offer_title h2{
-    color: #F00;
-font-family: Inter;
-font-size: 25px;
-font-weight: 700;
+.offer_2024 {
+  width: 100%;
 }
 
-.offer_title p{
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
+.offer_title h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.offer_title p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.gallery {
+  margin: 80px 0;
+}
+
+.gallery_heading {
+  width: 70%;
+}
+
+.gallery_heading h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0;
+}
+
+.gallery_heading h3 {
+  color: #070211;
+  font-size: 25px;
+
+  font-weight: 900;
+
+  text-transform: capitalize;
+  line-height: 15px;
+}
+
+.gallery_heading p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 40px;
+}
+
+.gallery_pic {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.gallery_imgs img {
+  width: 100%;
+}
+
+.gallery_imgs {
+  position: relative;
+  border-radius: 10px;
+}
+
+.gallery_imgs::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 0%;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#070211+6,070211+71&1+6,0.5+67 */
+  background: linear-gradient(
+    to right,
+    rgba(7, 2, 17, 1) 6%,
+    rgba(7, 2, 17, 0.5) 67%,
+    rgba(7, 2, 17, 0.5) 71%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  transition: 0.6s all ease-in-out;
+  opacity: 0.8;
+}
+
+.gallery_imgs:hover::after {
+  border-radius: 10px;
+  height: 99%;
 }
